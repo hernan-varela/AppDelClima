@@ -1,8 +1,9 @@
 import React from 'react';
+import MonthtlyContainer from '../modules/monthtly/MonthtlyContainer';
 
 function MonthlyPage() {
     return (
-        <h1>MonthlyPage</h1>
+        <MonthtlyContainer />
     );
 }
 

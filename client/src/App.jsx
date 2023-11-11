@@ -1,28 +1,22 @@
-// import './App.css'
 
-// function App() {
-  
-
-//   return (
-//     <>
-//       <h1>mi app</h1>
-//     </>
-//   )
-// }
-
-// export default App
-import AppRouter from './routers/AppRouter';
+import AppRouter from "./routers/AppRouter";
+import CssBaseline from "@mui/material/CssBaseline";
 // import { UserProvider } from './context/UserContext';
 // import { EgressProvider } from './context/EgressContext';
 // import { IncomeProvider } from './context/IncomeContext';
+
 
 function App() {
   return (
     // <UserProvider>
     //   <IncomeProvider>
-        // <EgressProvider>
-          <AppRouter />
-        /* </EgressProvider> */
+    // <EgressProvider>
+    <>
+      <CssBaseline>
+        <AppRouter />{" "}
+      </CssBaseline>
+    </>
+    /* </EgressProvider> */
     //   </IncomeProvider>
     // </UserProvider>
   );

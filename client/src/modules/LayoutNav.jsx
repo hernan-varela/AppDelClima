@@ -1,3 +1,4 @@
+import { Box } from '@mui/material';
 import Navbar from './navbar/Navbar';
 import { PropTypes } from 'prop-types';
 
@@ -7,10 +8,10 @@ function Layout({ children }) {
   };
 
   return (
-    <>
+    <Box >
       <Navbar />
       {children}
-    </>
+    </Box>
   );
 }
 
