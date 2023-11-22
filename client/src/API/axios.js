@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "https://api.tomorrow.io/v4/",
+  baseURL: "https://api.openweathermap.org/data/2.5/",
   withCredentials: true,
 });
 
